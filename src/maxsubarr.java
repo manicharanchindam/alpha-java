@@ -7,6 +7,7 @@ public class maxsubarr {
             for(int j=i;j<n;j++){
                 int sum=0;
                 for(int k=i;k<=j;k++){
+                    System.out.print(arr[k]+" ");
                     sum=sum+arr[k];
                 }
                 System.out.println(sum);
